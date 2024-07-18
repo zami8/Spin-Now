@@ -6,7 +6,7 @@ body {
     background-color: white;
     font-family: Arial, sans-serif;
     background-image: url(background.png);
-    background-repeat: no-repeat;
+    
     background-position: center center;
     -webkit-background-size: cover;
   -moz-background-size: cover;
