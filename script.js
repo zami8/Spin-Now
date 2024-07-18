@@ -14,7 +14,7 @@ spinBtn.addEventListener('click', () => {
         spinning = true;
         let spinAngle = 360 * Math.random();
         let targetSegment = selectSegment(probabilities);
-        let targetRotation = 360 * targetSegment + (360 / numSegments) / 2 - spinAngle;
+        let targetRotation = 2* 360 * targetSegment + (360 / numSegments) / 2 - spinAngle;
 
         wheel.style.transform = `rotate(${currentRotation + targetRotation}deg)`;
 
