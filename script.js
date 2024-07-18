@@ -7,7 +7,7 @@ let numSegments = segments.length;
 let currentRotation = 0;
 
 // Adjust these probabilities as needed (should sum up to 1)
-const probabilities = [0.01, 0.01, 0.95, 0.01, 0.01, 0.01];
+const probabilities = [0.1, 0.1, 0.5, 0.1, 0.1, 0.1];
 
 spinBtn.addEventListener('click', () => {
     if (!spinning) {
